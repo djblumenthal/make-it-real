@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<header>
+	<header class="page-header">
 		<h1 class="page-title">My Website</h1>
 	</header>
 	<nav class="topnav">
@@ -17,107 +17,112 @@
 	</nav>
 	<article>
 		<h2 class="article-title">Article Title</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		<p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="article-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		<section>
-			<h3>Section One</h3>
-			<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-			<table>
-				<thead>
-					<th>What</th>
-					<th>Where</th>
-					<th>How</th>
-				</thead>
-				<tbody>
-					<tr>
-						<td>HTML</td>
-						<td>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</td>
-						<td>Go</td>
-					</tr>
-					<tr>
-						<td>CSS</td>
-						<td>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</td>
-						<td>Try</td>
-					</tr>
-					<tr>
-						<td>JS</td>
-						<td>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</td>
-						<td>View</td>
-					</tr>
-				</tbody>	
-			</table>
-			<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<h3 class="section-title">Section One</h3>
+			<p class="article-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<aside>	
+				<table>
+					<thead>
+						<th>What</th>
+						<th>Where</th>
+						<th>How</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>HTML</td>
+							<td>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</td>
+							<td><div class="blue-button">Go!</div></td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</td>
+							<td><div class="blue-button">Try!</div></td>
+						</tr>
+						<tr>
+							<td>JS</td>
+							<td>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</td>
+							<td><div class="blue-button">View!</div></td>
+						</tr>
+					</tbody>	
+				</table>
+			</aside>	
+			<p class="article-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 		</section>
 		<section>
-			<h3>Section Two</h3>
-			<p>Duis ultrices dapibus sem vel rhoncus. Integer in sollicitudin lectus, eget cursus magna. Fusce sem lectus, accumsan ac nibh vel, varius adipiscing justo.</p>
-			<aside>
+			<h3 class="section-title">Section Two</h3>
+			<p class="article-text">Duis ultrices dapibus sem vel rhoncus. Integer in sollicitudin lectus, eget cursus magna. Fusce sem lectus, accumsan ac nibh vel, varius adipiscing justo.</p>
+			<aside class="code-sample">
 				$('#myElement').click(function(){<br>console.log('Clicked!')<br>});
 			</aside>
-			<p>Fusce ac malesuada turpis. Aenean volutpat semper rhoncus. Nam at fringilla tortor, vel laoreet lectus.</p>
-			<p>Mauris nec elementum lectus, id fermentum urna. Mauris nec tincidunt tortor. Nulla vel eros eget neque rhoncus faucibus.</p>
+			<p class="article-text">Fusce ac malesuada turpis. Aenean volutpat semper rhoncus. Nam at fringilla tortor, vel laoreet lectus.</p>
+			<p class="article-text">Mauris nec elementum lectus, id fermentum urna. Mauris nec tincidunt tortor. Nulla vel eros eget neque rhoncus faucibus.</p>
 		</section>
 		<section>
-			<h3>Section Three</h3>
-			<p>Nulla eget purus enim. Mauris laoreet nibh eget eros malesuada euismod. Nam in risus in lacus accumsan congue ut et dui.</p>
+			<h3  class="section-title">Section Three</h3>
+			<p class="article-text">Nulla eget purus enim. Mauris laoreet nibh eget eros malesuada euismod. Nam in risus in lacus accumsan congue ut et dui.</p>
 			<aside>
-				<img src="http://www.clipartbest.com/cliparts/eTM/Aqo/eTMAqoETn.gif">
+				<img class="article-image" src="http://placehold.it/300x100&text=Placeholder+Image">
 			</aside>
 			<ol>
-				<li>Create HTML: Aenean volutpat semper rhoncus. Nam at fringilla tortor, vel laoreet lectus. Mauris nec elementum lectus, id fermentum urna. Mauris nec tincidunt tortor.</li>
-				<li>Make Pretty with CSS: Nulla vel eros eget neque rhoncus faucibus. Nulla eget purus enim.</li>
-				<li>Profit: Mauris laoreet nibh eget eros malesuada euismod. Nam in risus in lacus accumsan congue ut et dui.</li>
+				<li><strong>Create HTML:</strong> Aenean volutpat semper rhoncus. Nam at fringilla tortor, vel laoreet lectus. Mauris nec elementum lectus, id fermentum urna. Mauris nec tincidunt tortor.</li>
+				<li><strong>Make Pretty with CSS:</strong> Nulla vel eros eget neque rhoncus faucibus. Nulla eget purus enim.</li>
+				<li><strong>Profit:</strong> Mauris laoreet nibh eget eros malesuada euismod. Nam in risus in lacus accumsan congue ut et dui.</li>
 			</ol>
 		</section>
-		<footer>Posted by <span>Author</span> under <span>Web>Dev</span> on <span>January 13, 2014</span>.</footer>
+		<footer>Posted by <strong>Author</strong> under <strong>Web>Dev</strong> on <strong>January 13, 2014</strong>.</footer>
 	</article>
-	<section>
-		<h2>Comments</h2>
-		<h4>User Info</h4>
-		<table>
-			<tbody>
-				<tr>
-					<th>Email</th>
-				</tr>
-				<tr>
-					<th>Display Name</th>
-				</tr>
-				<tr>
-					<th>Website</th>
-				</tr>
-			</tbody>
-		</table>
-		<h4>Comment</h4>
-		<div>**input field here**</div>
+	<article>
+		<h2 class="article-title">Comments</h2>
+		<h4>USER INFO</h4>
+		<h4>COMMENT</h4>
+		<form>
+			<div>
+				<label for="email">E-mail</label>
+				<input class="small-field" type="text" name="email">
+			</div>
+			<div>
+				<label for="display-name">Display Name</label>
+				<input class="small-field" type="text" name="display-name">
+			</div>
+			<div>
+				<label for="website">Website</label>
+				<input class="small-field" type="text" name="website">
+			</div>
+		</form>
 		<a href="submit.html"><div>Submit</div></a>
 	</section>
 	<section>
 		</div>
-			<div class="comment">
-			<div class="avatar-holder"></div>
+		<div class="comment">
+			<img class="userthumb" src="http://placehold.it/50x50">
+			<div class="comment-contain">	
+				<h5 class="userid">User 1</h5>
+				<h6 class="date-posted">January 13, 2014</h6>
+			</div>	
+			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
+			
+		</div>
+		<div class="comment response">
+			<img class="userthumb" src="http://placehold.it/50x50">
 			<h5 class="userid">User 1</h5>
 			<h6 class="date-posted">January 13, 2014</h6>
 			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
 		</div>
 		<div class="comment response">
-			<div class="avatar-holder"></div>
-			<h5 class="userid">User 1</h5>
-			<h6 class="date-posted">January 13, 2014</h6>
-			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
-		</div>
-		<div class="comment-response">
-			<div class="avatar-holder"></div>
+			<img class="userthumb" src="http://placehold.it/50x50">
 			<h5 class="userid">User 3</h5>
 			<h6 class="date-posted">January 13, 2014</h6>
 			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
 		</div>
-			<div class="comment">
-			<div class="avatar-holder"></div>
+		<div class="comment">
+			<img class="userthumb" src="http://placehold.it/50x50">
 			<h5 class="userid">User 2</h5>
 			<h6 class="date-posted">January 13, 2014</h6>
 			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
 		</div>
-	</section>
+	</article>
 
 </body>
 </html>
