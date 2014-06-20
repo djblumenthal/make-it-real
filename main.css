@@ -27,6 +27,11 @@ body * {
 
 article {
 	padding: 1em;
+	position: relative;
+}
+
+.rightnav {
+	
 }
 
 .article-title {
@@ -98,6 +103,7 @@ label{
 .user-thumb{
 	float:left;
 }
-.comment-contain{
-	display:inline-block;
+.comment-info {
+	display: inline-block;
+	overflow: hidden;
 }

@@ -54,7 +54,7 @@
 			<h3 class="section-title">Section Two</h3>
 			<p class="article-text">Duis ultrices dapibus sem vel rhoncus. Integer in sollicitudin lectus, eget cursus magna. Fusce sem lectus, accumsan ac nibh vel, varius adipiscing justo.</p>
 			<aside class="code-sample">
-				$('#myElement').click(function(){<br>console.log('Clicked!')<br>});
+				$('#myElement').click(function(){<br>&nbsp;&nbsp;&nbsp;&nbsp;console.log('Clicked!')<br>});
 			</aside>
 			<p class="article-text">Fusce ac malesuada turpis. Aenean volutpat semper rhoncus. Nam at fringilla tortor, vel laoreet lectus.</p>
 			<p class="article-text">Mauris nec elementum lectus, id fermentum urna. Mauris nec tincidunt tortor. Nulla vel eros eget neque rhoncus faucibus.</p>
@@ -73,6 +73,12 @@
 		</section>
 		<footer>Posted by <strong>Author</strong> under <strong>Web>Dev</strong> on <strong>January 13, 2014</strong>.</footer>
 	</article>
+	<nav class="rightnav">
+		<h5>Recent Posts</h5>
+
+		<h5>Categories</h5>
+		
+	</nav>
 	<article>
 		<h2 class="article-title">Comments</h2>
 		<h4>USER INFO</h4>
@@ -97,9 +103,9 @@
 		</div>
 		<div class="comment">
 			<img class="userthumb" src="http://placehold.it/50x50">
-			<div class="comment-contain">	
-				<h5 class="userid">User 1</h5>
-				<h6 class="date-posted">January 13, 2014</h6>
+			<div class="comment-info">	
+				<span class="userid">User 1</span><br>
+				<span class="date-posted">January 13, 2014</span>
 			</div>	
 			<p class="user-comment">Aliquam posuere rutrum accumsan.</p>
 			
